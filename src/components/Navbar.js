@@ -1,5 +1,4 @@
 import Image from "next/image";
-import { useState } from "react";
 import Toolbar from "./Toolbar";
 import LargeIcons from "./LargeIcons";
 import SheetNameInput from "./SheetNameInput";
@@ -17,7 +16,6 @@ const menu = [
 ];
 
 export default function Navbar() {
-
 
   return (
     <nav className="bg-[#F9FBFD] h-28">
