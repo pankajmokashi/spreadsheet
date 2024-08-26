@@ -1,33 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+.material-symbols-outlined {
+  font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 24
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+.tool-scroll {
+  overflow-x: scroll;
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+.tool-scroll::-webkit-scrollbar {
+  height: 5px;
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+.tool-scroll::-webkit-scrollbar-thumb {
+  background-color: grey;
+  border-radius: 5px;
+}
+
+.nav-scroll::-webkit-scrollbar {
+  height: 5px;
+}
+
+.nav-scroll::-webkit-scrollbar-thumb {
+  background-color: grey;
+  border-radius: 5px;
+}
+
+.content {
+  height: calc(100vh - 7rem);
+}
+
+.grid {
+  height: calc(100% - 4rem);
+  overflow: scroll;
+}
+
+.grid::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+.grid::-webkit-scrollbar-track {
+  background: rgb(240, 240, 240);
+}
+
+.grid::-webkit-scrollbar-thumb {
+  background-color: #C0C0C0;
+  border-radius: 12px;
+}
+
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
