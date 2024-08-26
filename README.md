@@ -2,9 +2,10 @@
 Developed a frontend application that mimics the functionality of a spreadsheet with advanced features. The application is built using Next.js and styled with Tailwind CSS. Utilized zustand to manage state.
 
 ## Features Implemented
-- Grid Rendering: Render a grid of 1000 blank cells. The grid should be efficiently handled and performant.
-- Cell Editing: Each cell should be editable. Implement a mechanism to handle user input and update the cell content dynamically.
-- Data Storage: Save the data entered in each cell in memory. Implement state management to ensure data persists while interacting with the grid.
+1. Core Functionality
+- Grid Rendering: Render a grid of 1000 blank cells. The grid is efficiently handled and performant.
+- Cell Editing: Each cell is editable. Implemented a mechanism to handle user input and update the cell content dynamically.
+- Data Storage: Save the data entered in each cell in memory. Implemented state management to ensure data persists while interacting with the grid.
 - Styling: Style the cells to visually distinguish them from one another, including grid lines, padding, and font styles.
 
 2. Advanced Features
