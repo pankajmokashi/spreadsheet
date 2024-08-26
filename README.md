@@ -1,40 +1,52 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Spreadsheet Clone
 
-## Getting Started
+## Set up and run the project
+### Install Required Software
+1. Ensure you have the following installed:
+- Git: For cloning the repository.
+- Node.js: Ensure it's a recent version that supports Next.js.
+- npm or yarn: For installing dependencies and running the app.
 
-First, run the development server:
+2. Clone the Repository
+- Open your terminal and run the following command to clone the repository:
+'''
+git clone https://github.com/pankajmokashi/spreadsheet.git
+'''
 
-```bash
+3. Navigate to the Project Directory
+- Move into the cloned project directory:
+'''
+cd spreadsheet
+'''
+
+4. Install Dependencies
+- Run the following command to install all the required dependencies:
+- Using npm:
+'''
+npm install
+'''
+- Or using yarn:
+'''
+yarn install
+'''
+
+5. Run the Development Server
+- Start the development server with the following command:
+- Using npm:
+'''
 npm run dev
-# or
+'''
+Or using yarn:
+'''
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+'''
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+7. Access the Application
+- Open your browser and navigate to:
+'''
+http://localhost:3000
+'''
+- The Next.js application should be running locally.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+### Live link
+- Netlify: https://spread-sheet-clone.netlify.app/
