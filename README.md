@@ -49,7 +49,7 @@ Using npm:
 ```
 npm run dev
 ```
-Or using yarn:
+- Or using yarn:
 ```
 yarn dev
 ```
