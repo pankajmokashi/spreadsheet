@@ -41,7 +41,7 @@ const Toolbar = () => {
         <Icons name="imagesearch_roller" />
       </div>
       <div className="h-6 border-l-2 border-slate-400"></div>
-      <div className="items-center gap-1">
+      <div className="flex items-center gap-1">
         <Icons name="attach_money" />
         <Icons name="percent" />
         <Icons name="decimal_decrease" />
@@ -49,7 +49,7 @@ const Toolbar = () => {
         <Icons name="123" />
       </div>
       <div className="h-6 border-l-2 border-slate-400"></div>
-      <div className="items-center gap-1">
+      <div className="flex items-center gap-1">
         <Icons
           name="format_bold"
           onClick={() => handleFormattingClick("font-medium")}
@@ -69,7 +69,7 @@ const Toolbar = () => {
         <Icons name="format_color_fill" />
       </div>
       <div className="h-6 border-l-2 border-slate-400"></div>
-      <div className="items-center gap-1">
+      <div className="flex items-center gap-1">
         <Icons name="border_all" />
         <Icons name="cell_merge" />
         <Icons
@@ -89,7 +89,7 @@ const Toolbar = () => {
         />
       </div>
       <div className="h-6 border-l-2 border-slate-400"></div>
-      <div className="items-center gap-1">
+      <div className="flex items-center gap-1">
         <Icons name="vertical_align_top" />
         <Icons name="vertical_align_center" />
         <Icons name="vertical_align_bottom" />
@@ -97,8 +97,8 @@ const Toolbar = () => {
         <Icons name="format_text_wrap" />
         <Icons name="format_text_clip" />
       </div>
-      <div className="h-6 border-l-2 border-slate-400 hidden"></div>
-      <div className="items-center gap-1 hidden">
+      <div className="h-6 border-l-2 border-slate-400 "></div>
+      <div className="flex items-center gap-1">
         <Icons name="link" />
         <Icons name="add_comment" />
         <Icons name="insert_chart" />
