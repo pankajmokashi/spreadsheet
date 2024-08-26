@@ -9,43 +9,43 @@
 
 2. Clone the Repository
 - Open your terminal and run the following command to clone the repository:
-'''b
+```bash
 git clone https://github.com/pankajmokashi/spreadsheet.git
-'''
+```
 
 3. Navigate to the Project Directory
 - Move into the cloned project directory:
-'''
+```bash
 cd spreadsheet
-'''
+```
 
 4. Install Dependencies
 - Run the following command to install all the required dependencies:
 - Using npm:
-'''
+```
 npm install
-'''
+```
 - Or using yarn:
-'''
+```
 yarn install
-'''
+```
 
 5. Run the Development Server
 - Start the development server with the following command:
 - Using npm:
-'''
+```
 npm run dev
-'''
+```
 Or using yarn:
-'''
+```
 yarn dev
-'''
+```
 
 7. Access the Application
 - Open your browser and navigate to:
-'''
+```
 http://localhost:3000
-'''
+```
 - The Next.js application should be running locally.
 
 ### Live link
