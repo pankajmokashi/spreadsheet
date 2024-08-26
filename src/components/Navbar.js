@@ -32,7 +32,7 @@ export default function Navbar() {
               className="w-full"
             />
           </div>
-          <div className="h-14 flex flex-col overflow-x-auto nav-scroll">
+          <div className="h-14 flex flex-col overflow-x-auto tool-scroll">
             <div className=" h-7 flex gap-1 items-center">
               <div className="text-[#444746]">
                 <SheetNameInput />

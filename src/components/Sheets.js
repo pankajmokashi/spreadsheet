@@ -21,7 +21,7 @@ const Sheets = () => {
   };
 
   return (
-    <div className="flex gap-2 items-center h-9 pl-16 tool-scroll">
+    <div className="flex gap-2 items-center h-9 max-h-9 pl-16 tool-scroll">
       <div
         className="w-7 hover:bg-[#dddee0] flex-center rounded-full lg:flex cursor-pointer"
         onClick={handleAddSheet}
@@ -35,7 +35,7 @@ const Sheets = () => {
           menu
         </span>
       </div>
-      <div className="h-full flex gap-2 font-medium flex-grow">
+      <div className="h-full flex gap-2 font-medium flex-grow mr-2">
         {Object.keys(sheets).map((sheetName) => (
           <div
             key={sheetName}
@@ -51,12 +51,14 @@ const Sheets = () => {
           </div>
         ))}
       </div>
-      <button
+      <div
+        className="w-7 min-w-7 hover:bg-[#dddee0] flex-center rounded-full lg:flex cursor-pointer mr-4"
         onClick={clearAllData}
-        className="hover:bg-[#dddee0] px-2 py-0.5 mr-2 rounded text-sm w-26 min-w-26"
       >
-        Clear All Data
-      </button>
+        <span className="material-symbols-outlined text-gray-700 text-xl">
+          delete
+        </span>
+      </div>
     </div>
   );
 };

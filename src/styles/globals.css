@@ -11,8 +11,13 @@
     'opsz' 24
 }
 
+body{
+  overflow: hidden;
+}
+
 .tool-scroll {
   overflow-x: scroll;
+  overflow-y: hidden;
 }
 
 .tool-scroll::-webkit-scrollbar {
@@ -20,15 +25,6 @@
 }
 
 .tool-scroll::-webkit-scrollbar-thumb {
-  background-color: grey;
-  border-radius: 5px;
-}
-
-.nav-scroll::-webkit-scrollbar {
-  height: 5px;
-}
-
-.nav-scroll::-webkit-scrollbar-thumb {
   background-color: grey;
   border-radius: 5px;
 }
